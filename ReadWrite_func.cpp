@@ -481,7 +481,7 @@ void EndReport(Tree* tree) {
     fprintf(fp_tex, "\\item %s\n", references_message2);
     fprintf(fp_tex, "\\end{enumerate}\n");
 
-    fprintf(fp_tex, "My \\href{https://github.com/Baranov-V-V/Differentiator}{\\underline{github}} repository");
+    fprintf(fp_tex, "My \\href{https://github.com/Baranov-V-V/Differentiator}{\\underline{github}} repository\\\\\\\\");
 
     fprintf(fp_tex, "%s\n", references_thanks);
 
