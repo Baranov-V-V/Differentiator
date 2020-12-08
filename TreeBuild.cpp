@@ -36,6 +36,8 @@ ExitCodes BuildTree(Tree* tree) {
 }
 
 Node* SyntaxError(Input* input, char* message) {
+    assert(input != nullptr);
+
     fprintf(stderr, "Syntax error in pos %d\n", input->ofs);
     fprintf(stderr, "%s", message);
     fprintf(stderr, "%s\n", input->data);
