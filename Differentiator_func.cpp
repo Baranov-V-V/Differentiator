@@ -269,7 +269,6 @@ void Simplify(Tree* tree) {
     assert(tree != nullptr);
 
     TexSimplifyBegin(tree);
-
     int is_changed = 0;
 
     do {

@@ -1,6 +1,8 @@
 #pragma once
 
 #include "TXLib.h"
+#include "Messages.h"
+
 #include <stdio.h>
 #include <malloc.h>
 #include <assert.h>
@@ -11,8 +13,6 @@
 #include <locale.h>
 #include <sys\stat.h>
 #include <time.h>
-
-#include "Messages.h"
 
 #define DEFAULT_DUMP
 #define DEFAULT_SAVE

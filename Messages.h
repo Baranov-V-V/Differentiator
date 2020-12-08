@@ -28,7 +28,7 @@ const char* references_message1 = "Redkozubov's conspects and lections";
 const char* references_message2 = "\"Collection of problems in mathematical analysis\" by Kudriavcev L.D.";
 const char* references_thanks = "Special thanks to Vasenin Egor for helping me create this report in LaTex";
 
-//differensiation messages
+//differensiation message
 const char* before_differentiation_messages[] = {
     "I guess the differential of:",
     "The Differential of the function:",
