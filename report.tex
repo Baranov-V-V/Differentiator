@@ -1,0 +1,360 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{breqn}
+\usepackage{vmargin}
+\usepackage{hyperref}
+\definecolor{urlcolor}{HTML}{330B03}
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+\begin{document}
+\begin{center}
+{\LARGE Advanced methods of differentiation}
+
+\end{center}
+\begin{center}
+{\LARGE \href{https://vk.com/baranov_v_v}{\underline{By Baranov Victor Vladimirovich}}}
+
+\end{center}
+The derivative of a function of a real variable measures the sensitivity to change of the function value (output value)with respect to a change in its argument (input value). The process of finding a derivative is called differentiation. The reverse process is called antidifferentiation. The fundamental theorem of calculus relates antidifferentiation with integration.Differentiation and integration constitute the two fundamental operations in single-variable calculus. So it it is very important totake a derivative fast and correct
+
+\begin{center}
+{\Large Let's take the derivative of the following function:}
+
+\begin{dmath}
+ y = x^{5}-x^{4}+\sin (\ln (x^{2}+\dfrac{1}{\tan (x)}))-(e^{x}+3^{x})\cdot \cos (x^{10})
+\end{dmath}
+Taking derivative of:
+\begin{dmath}
+ y = x
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x^{10}
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = 10\cdot x^{10-1}\cdot 1
+\end{dmath}
+Taking derivative of:
+\begin{dmath}
+ y = \cos (x^{10})
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = \sin (x^{10})\cdot (-1)\cdot 10\cdot x^{10-1}\cdot 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = 3^{x}
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = 3^{x}\cdot \ln (3)\cdot 1
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = x
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = e^{x}
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = e^{x}\cdot 1
+\end{dmath}
+Obviously that this mathematical function after differentiation
+\begin{dmath}
+ y = e^{x}+3^{x}
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = e^{x}\cdot 1+3^{x}\cdot \ln (3)\cdot 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = (e^{x}+3^{x})\cdot \cos (x^{10})
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = (e^{x}\cdot 1+3^{x}\cdot \ln (3)\cdot 1)\cdot \cos (x^{10})+(e^{x}+3^{x})\cdot \sin (x^{10})\cdot (-1)\cdot 10\cdot x^{10-1}\cdot 1
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = x
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+Obviously that this mathematical function after differentiation
+\begin{dmath}
+ y = \tan (x)
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = \dfrac{1}{(\cos (x))^{2}}
+\end{dmath}
+Taking derivative of:
+\begin{dmath}
+ y = 1
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 0
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = \dfrac{1}{\tan (x)}
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = \dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}
+\end{dmath}
+Taking derivative of:
+\begin{dmath}
+ y = x
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x^{2}
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 2\cdot x^{2-1}\cdot 1
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = x^{2}+\dfrac{1}{\tan (x)}
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 2\cdot x^{2-1}\cdot 1+\dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}
+\end{dmath}
+Obviously that this mathematical function after differentiation
+\begin{dmath}
+ y = \ln (x^{2}+\dfrac{1}{\tan (x)})
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = \dfrac{2\cdot x^{2-1}\cdot 1+\dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}}{x^{2}+\dfrac{1}{\tan (x)}}
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = \sin (\ln (x^{2}+\dfrac{1}{\tan (x)}))
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = \cos (\ln (x^{2}+\dfrac{1}{\tan (x)}))\cdot \dfrac{2\cdot x^{2-1}\cdot 1+\dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}}{x^{2}+\dfrac{1}{\tan (x)}}
+\end{dmath}
+The Differential of the function:
+\begin{dmath}
+ y = x
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x^{4}
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 4\cdot x^{4-1}\cdot 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 1
+\end{dmath}
+Taking derivative of:
+\begin{dmath}
+ y = x^{5}
+\end{dmath}
+Have value of:
+\begin{dmath}
+ \frac{dy}{dx} = 5\cdot x^{5-1}\cdot 1
+\end{dmath}
+Taking derivative of:
+\begin{dmath}
+ y = x^{5}-x^{4}
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = 5\cdot x^{5-1}\cdot 1-4\cdot x^{4-1}\cdot 1
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x^{5}-x^{4}+\sin (\ln (x^{2}+\dfrac{1}{\tan (x)}))
+\end{dmath}
+After long calculations we get:
+\begin{dmath}
+ \frac{dy}{dx} = 5\cdot x^{5-1}\cdot 1-4\cdot x^{4-1}\cdot 1+\cos (\ln (x^{2}+\dfrac{1}{\tan (x)}))\cdot \dfrac{2\cdot x^{2-1}\cdot 1+\dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}}{x^{2}+\dfrac{1}{\tan (x)}}
+\end{dmath}
+I guess the differential of:
+\begin{dmath}
+ y = x^{5}-x^{4}+\sin (\ln (x^{2}+\dfrac{1}{\tan (x)}))-(e^{x}+3^{x})\cdot \cos (x^{10})
+\end{dmath}
+Results in:
+\begin{dmath}
+ \frac{dy}{dx} = 5\cdot x^{5-1}\cdot 1-4\cdot x^{4-1}\cdot 1+\cos (\ln (x^{2}+\dfrac{1}{\tan (x)}))\cdot \dfrac{2\cdot x^{2-1}\cdot 1+\dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}}{x^{2}+\dfrac{1}{\tan (x)}}-(e^{x}\cdot 1+3^{x}\cdot \ln (3)\cdot 1)\cdot \cos (x^{10})+(e^{x}+3^{x})\cdot \sin (x^{10})\cdot (-1)\cdot 10\cdot x^{10-1}\cdot 1
+\end{dmath}
+{\LARGE}Now simplify the following:
+\begin{dmath}
+ y' = 5\cdot x^{5-1}\cdot 1-4\cdot x^{4-1}\cdot 1+\cos (\ln (x^{2}+\dfrac{1}{\tan (x)}))\cdot \dfrac{2\cdot x^{2-1}\cdot 1+\dfrac{0\cdot \tan (x)-1\cdot \dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}}{x^{2}+\dfrac{1}{\tan (x)}}-(e^{x}\cdot 1+3^{x}\cdot \ln (3)\cdot 1)\cdot \cos (x^{10})+(e^{x}+3^{x})\cdot \sin (x^{10})\cdot (-1)\cdot 10\cdot x^{10-1}\cdot 1
+\end{dmath}
+It's obvious to a 3rd grade that:
+\begin{dmath}
+ y = 5-1
+\end{dmath}
+Is 100\% the same to the:
+\begin{dmath}
+ y = 4
+\end{dmath}
+No need to tell you that:
+\begin{dmath}
+ y = 5\cdot x^{4}\cdot 1
+\end{dmath}
+Like:
+\begin{dmath}
+ y = 5\cdot x^{4}
+\end{dmath}
+It's obvious to a 3rd grade that:
+\begin{dmath}
+ y = 4-1
+\end{dmath}
+Is 100\% the same to the:
+\begin{dmath}
+ y = 3
+\end{dmath}
+Nothing is easier that understanding that:
+\begin{dmath}
+ y = 4\cdot x^{3}\cdot 1
+\end{dmath}
+Equals to:
+\begin{dmath}
+ y = 4\cdot x^{3}
+\end{dmath}
+It's obvious to a 3rd grade that:
+\begin{dmath}
+ y = 2-1
+\end{dmath}
+Like:
+\begin{dmath}
+ y = 1
+\end{dmath}
+Nothing is easier that understanding that:
+\begin{dmath}
+ y = x^{1}
+\end{dmath}
+Like:
+\begin{dmath}
+ y = x
+\end{dmath}
+Easy to notice that:
+\begin{dmath}
+ y = 2\cdot x\cdot 1
+\end{dmath}
+Equals to:
+\begin{dmath}
+ y = 2\cdot x
+\end{dmath}
+Even blind person sees that:
+\begin{dmath}
+ y = 0\cdot \tan (x)
+\end{dmath}
+Like:
+\begin{dmath}
+ y = 0
+\end{dmath}
+If your iq is more than 40 you'll get that:
+\begin{dmath}
+ y = 1\cdot \dfrac{1}{(\cos (x))^{2}}
+\end{dmath}
+Is 100\% the same to the:
+\begin{dmath}
+ y = \dfrac{1}{(\cos (x))^{2}}
+\end{dmath}
+Even blind person sees that:
+\begin{dmath}
+ y = 0-\dfrac{1}{(\cos (x))^{2}}
+\end{dmath}
+Equals to:
+\begin{dmath}
+ y = \dfrac{1}{(\cos (x))^{2}}
+\end{dmath}
+Even blind person sees that:
+\begin{dmath}
+ y = e^{x}\cdot 1
+\end{dmath}
+Have the same value as:
+\begin{dmath}
+ y = e^{x}
+\end{dmath}
+Nothing is easier that understanding that:
+\begin{dmath}
+ y = 3^{x}\cdot \ln (3)\cdot 1
+\end{dmath}
+Like:
+\begin{dmath}
+ y = 3^{x}\cdot \ln (3)
+\end{dmath}
+Even blind person sees that:
+\begin{dmath}
+ y = 10-1
+\end{dmath}
+Like:
+\begin{dmath}
+ y = 9
+\end{dmath}
+Even blind person sees that:
+\begin{dmath}
+ y = 10\cdot x^{9}\cdot 1
+\end{dmath}
+Like:
+\begin{dmath}
+ y = 10\cdot x^{9}
+\end{dmath}
+The final derivative of the given function is:
+
+\begin{dmath}
+ y' = 5\cdot x^{4}-4\cdot x^{3}+\cos (\ln (x^{2}+\dfrac{1}{\tan (x)}))\cdot \dfrac{2\cdot x+\dfrac{\dfrac{1}{(\cos (x))^{2}}}{\tan (x)\cdot \tan (x)}}{x^{2}+\dfrac{1}{\tan (x)}}-(e^{x}+3^{x}\cdot \ln (3))\cdot \cos (x^{10})+(e^{x}+3^{x})\cdot \sin (x^{10})\cdot (-1)\cdot 10\cdot x^{9}
+\end{dmath}
+
+{\Large Materials used in my report:}
+\end{center}
+\begin{enumerate}
+\item Redkozubov's conspects and lections
+\item "Collection of problems in mathematical analysis" by Kudriavcev L.D.
+\end{enumerate}
+My \href{https://github.com/Baranov-V-V/Differentiator}{\underline{github}} repositorySpecial thanks to Vasenin Egor for helping me create this report in LaTex
+
+\end{document}
